@@ -17,6 +17,7 @@ let link = 'http://localhost:5173/';
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/posts">Posts</RouterLink>
         <RouterLink to="/authors">Authors</RouterLink>
+        <RouterLink to="/form">Form Components</RouterLink>
   </nav>
   </header>
   <RouterView />
@@ -56,9 +57,14 @@ nav a.router-link-exact-active:hover {
 }
 
 nav a {
+  color: aliceblue;
   display: inline-block;
   padding: 0 1rem;
   border-left: 1px solid var(--color-border);
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
 }
 
 nav a:first-of-type {
