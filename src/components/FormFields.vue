@@ -68,7 +68,7 @@ function onSubmit ()  {
 
 <template>
 
-   <!---- <InputText type="text" v-model="value" placeholder="Type name" size="normal"/> -->
+   <!-- <InputText type="text" v-model="value" placeholder="Type name" size="normal"/> -->
 
   
     <form @submit.prevent="onSubmit">
