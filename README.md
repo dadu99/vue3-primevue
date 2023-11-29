@@ -1,4 +1,6 @@
-# [vue3-primevue](https://prime-vue-pinia.netlify.app/)
+# (https://prime-vue-pinia.netlify.app/)
+
+Template project where is used primevue components and pinia store management on composition api.
 
 ## Project Setup
 
@@ -10,10 +12,4 @@ npm install
 
 ```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
 ```
