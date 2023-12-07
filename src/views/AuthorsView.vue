@@ -23,14 +23,16 @@
 .exactLink {
     font-size: 22px;
     margin: 20px;
-    color: black;
+    color: wheat;
 }
 .list-all-authors {
-  background-color: white;
   padding: 10px;
 }
 ul li {
   list-style-type: circle;
-  color: black;
+  color: wheat;
+}
+a {
+  text-decoration: none;
 }
 </style>
