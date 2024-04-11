@@ -29,12 +29,11 @@ let link = 'http://localhost:5173/';
 header {
   display: flex;
   gap: 27px;
-  background-color: #01679C ;
   padding: 1rem 0;
 }
 nav {
   width: 100%;
-  text-align: left;
+  text-align: center;
 }
 .logo-vue {
   width: 44px;

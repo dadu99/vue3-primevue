@@ -1,4 +1,4 @@
-# (https://prime-vue-pinia.netlify.app/)
+# DEV LINK : https://prime-vue-pinia.netlify.app/
 
 Template project where is used primevue components and pinia store management on composition api.
 

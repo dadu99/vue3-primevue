@@ -11,7 +11,7 @@
 
 <template>
   <div class="header-title">
-    <h1>Posts via Pinia store:</h1>
+    <h1 class="header-title__content">Posts via Pinia store:</h1>
   </div>
   <div class="post">
 
@@ -25,7 +25,7 @@
     <div v-if="posts"> 
     <div class="posts-section" v-for="post in posts" :key="post.id">
           <div>
-            <RouterLink :to="`/post/${post.id}`"> {{ post.title }}</RouterLink>
+            <RouterLink :to="`/post/${post.id}`" style="text-decoration: none; color: inherit;"> {{ post.title }}</RouterLink>
           </div>
           <p>{{ post.body }}</p>
         </div>
@@ -39,10 +39,14 @@
 }
 .post {
   font-size: 1em;
-  padding: 3.5em;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .header-title, .post p {
   color: black;
+}
+.header-title__content {
+  margin: 15px auto;
 }
 .posts-section {
   background: white;
